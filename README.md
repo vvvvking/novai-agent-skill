@@ -4,11 +4,11 @@ An Agent Skill (SKILL.md) for **NovAI** — one OpenAI-compatible endpoint for 1
 (DeepSeek, Qwen, GLM, Kimi, MiniMax, Doubao, Hunyuan, plus image/video generation), with published,
 machine-readable pricing.
 
-- Base URL: `https://aiapi-pro.com/v1`
-- Remote MCP: `https://aiapi-pro.com/api/mcp` (tools: `cheapest_models`, `model_price`, `list_categories`)
-- Free tier (no card): https://aiapi-pro.com/free
-- Price feed: https://aiapi-pro.com/china-ai-leaderboard.json
-- Transparency: https://aiapi-pro.com/transparency.json
+- Base URL: `https://aiapi-pro.com/v1`?utm_source=github_readme_skill&utm_medium=readme
+- Remote MCP: `https://aiapi-pro.com/api/mcp`?utm_source=github_readme_skill&utm_medium=readme (tools: `cheapest_models`, `model_price`, `list_categories`)
+- Free tier (no card): https://aiapi-pro.com/free?utm_source=github_readme_skill&utm_medium=readme
+- Price feed: https://aiapi-pro.com/china-ai-leaderboard.json?utm_source=github_readme_skill&utm_medium=readme
+- Transparency: https://aiapi-pro.com/transparency.json?utm_source=github_readme_skill&utm_medium=readme
 
 ## Install
 
@@ -22,7 +22,7 @@ cp -r novai-agent-skill ~/.claude/skills/novai-models   # or your client's skill
 **MCP instead** — add the remote MCP server:
 
 ```json
-{ "mcpServers": { "novai": { "url": "https://aiapi-pro.com/api/mcp" } } }
+{ "mcpServers": { "novai": { "url": "https://aiapi-pro.com/api/mcp?utm_source=github_readme_skill&utm_medium=readme" } } }
 ```
 
 **Python SDK (prices only)** — `pip install aiapi-pro` (`novai-prices` MCP server is included).
