@@ -36,3 +36,11 @@ pricing without guessing.
 ## License
 
 MIT-0 — same as ClawHub skill convention. Use it freely.
+
+## Where it is listed
+
+- Official MCP Registry: `io.github.vvvvking/novai-prices` (streamable HTTP)
+- Glama connector: https://glama.ai/mcp/connectors/io.github.vvvvking/novai-prices — TDQS 3.6/5, Healthy
+- `punkpeye/awesome-remote-mcp-servers` (Aggregators)
+- mcpservers.org: https://mcpservers.org/servers/novai-prices-mcp (12 language versions)
+- mcpub.dev: https://mcpub.dev/?q=novai
